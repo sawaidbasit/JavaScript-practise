@@ -373,5 +373,121 @@
 // }
 
 
-let  nums = [1,3,5,6];
-console.log(nums[0])
+// let  nums = [1,3,5,6];
+// let fullNumber =[1,2,3,4,5,6];
+// let num;
+// let firstValue = nums[0];
+// for (let i = 0; i < nums.length; i++) {
+//      num = nums[i]
+//     //  console.log(num);
+// }
+
+// let filter = fullNumber.filter(FilterFunction)
+// // console.log(filter)
+// function FilterFunction() {
+//     if (fullNumber == num) {
+//         console.log(num);
+//     }
+// }
+
+// Task 1: Array Sum
+// Ek array banayein jisme kuch numbers hain.
+// Is array ke saare numbers ka sum nikalein aur console par print karein.
+
+// let number = [10,20,40,60,4];
+// let sum = 0;
+// for (let i = 0; i < number.length; i++) {
+//     sum += number[i];
+// }
+// console.log(sum);
+
+
+
+// Task 3: Odd Numbers
+
+// Ek array banayein jisme kuch numbers hain.
+// Is array se odd numbers ko filter karke ek naye array mein store karein aur console par print karein.
+
+// let number = [10,20,40,60,4,3,1];
+// let filterOdd =  number.filter((elem)=> elem %2!= 0)
+// console.log(filterOdd);
+
+// Task 5: Duplicate Values
+
+// Ek array banayein jisme kuch elements hain (strings ya numbers).
+// Is array se duplicate values ko filter karke ek naye array mein store karein aur console par print karein.
+
+// let number = [10,40,20,40,60,4,3];
+// console.log(...new Set(number))
+
+// Task 6: Array Sorting
+
+// Ek array banayein jisme kuch numbers hain.
+// Is array ko ascending order mein sort karke console par print karein.
+
+// let num = [20,8,5,10,40,60];
+// console.log(num.sort())
+
+// let  nums = [1,3,5,6];
+// let firstNumber = nums[0]
+// let LastNumber = nums[nums.length -1 ];
+// let allNumber = [];
+// let allnumbers =0;
+// for (let i = firstNumber; i <= LastNumber; i++) {
+//    allNumber.push(i)
+//     // console.log(i)
+// }
+
+// for (let i = 0; i < nums.length; i++) {
+//     // const element = array[i];
+//     // console.log(nums[i]);
+//     const num = nums[i]
+//     // console.log(num);
+//     if (allNumber[i] == num) {
+//         console.log("matched")
+//     } else{
+//         console.log("! matched")
+//     }     
+// }
+
+// Find the Index of a Specific Element
+// Ek array mein se kisi specific element ka index find karna hai.
+
+// let arr = [1,2,3,4,7,5,8];
+// let findIndex = arr.indexOf(3);
+// console.log(findIndex);
+
+// Task 7: Remove an Element
+// Ek array se kisi specific element ko remove karna hai.
+// let arr = [1,2,3,4,7,5,8];
+//  arr.splice(1,1)
+//  console.log(arr);
+
+// Task: Array Sorting
+// Ek array di gayi hai. Is array ko ascending order mein sort karna hai. Aapko array ke elements ko re-arrange karna hai taaki woh chhote se bade order mein aayein.
+// let Arr = [5, 2, 8, 1, 4]
+// console.log(Arr.sort())
+
+// Task: Count Vowels in a String
+// Ek string di gayi hai. Aapko find karna hai ki ismein total kitni vowels (a, e, i, o, u) hain.
+// String: "programming is fun"
+
+        // let str = "programming is fun";
+        // let count = 0;
+        // if (str.includes("a")) {
+        //     count ++;
+        // } 
+        // if (str.includes("e")) {
+        //     count ++;
+
+        // } if (str.includes("i")) {
+        //     count ++;
+
+        // } if (str.includes("o")) {
+        //     count ++;
+
+        // } if (str.includes("u")) {
+        //     count  ++;
+        // } 
+        // console.log(count);
+
